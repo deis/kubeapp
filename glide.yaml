@@ -1,0 +1,4 @@
+package: github.com/arschles/kubeapp
+import:
+- package: github.com/jchauncey/kubeclient
+  version: 9818037c585aa7c70c7c79125a900e966e22f03e
