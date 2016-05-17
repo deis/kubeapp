@@ -4,7 +4,7 @@ import (
 	"k8s.io/kubernetes/pkg/api"
 )
 
-// Getter is a (k8s.io/kubernetes/pkg/client/unversioned).ServiceInterface compatible
+// Getter is a (k8s.io/kubernetes/pkg/client/unversioned).SecretsInterface compatible
 // interface designed only for getting a service. It should be used as a parameter to functions
 // so that they can be more easily unit tested
 type Getter interface {
